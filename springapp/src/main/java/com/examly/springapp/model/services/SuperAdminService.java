@@ -19,7 +19,7 @@ public class SuperAdminService {
     private final AppUserRepo appUserRepo;
     @Autowired
     SuperAdminService(SuperAdminRepo superAdminRepo,
-                      AppAdminRepo appAdminRepo,
+                      AppAdminRepo appsAdminRepo,
                       AppUserRepo appUserRepo){
         this.superAdminRepo = superAdminRepo;
         this.appAdminRepo = appAdminRepo;
