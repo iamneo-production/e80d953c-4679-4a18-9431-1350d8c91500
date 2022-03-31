@@ -5,4 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AppAdminRepo extends JpaRepository<AppAdmin,Long> {
     AppAdmin findAppAdminByEmail(String email);
+    AppAdmin deleteByEmail(String email);
 }
